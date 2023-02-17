@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Multiplayer Dice Poker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Login/Register Page -->
+    <div id="login-register-page">
+      <h1>Multiplayer Dice Poker</h1>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit">Log In</button>
+      </form>
+      <a href="#">Register</a>
+    </div>
+    
+    <!-- Lobby/Main Menu Page -->
+    <div id="lobby-page" style="display: none;">
+      <h1>Lobby</h1>
+      <ul>
+        <li><a href="#">Game 1</a></li>
+        <li><a href="#">Game 2</a></li>
+        <li><a href="#">Game 3</a></li>
+        <li><a href="#">Create New Game</a></li>
+      </ul>
+      <button id="logout-button">Log Out</button>
+    </div>
+    
+    <!-- Game Board Page -->
+    <div id="game-board-page" style="display: none;">
+      <h1>Game Board</h1>
+      <canvas id="dice-canvas"></canvas>
+      <div id="player-info">
+        <p>Player Name</p>
+        <p>Wallet: $100</p>
+      </div>
+      <div id="game-info">
+        <p>Current Bet: $10</p>
+        <p>Rolls Left: 2</p>
+      </div>
+      <div id="game-actions">
+        <button id="roll-button">Roll Dice</button>
+        <button id="bet-button">Place Bet</button>
+      </div>
+      <div id="chat-window">
+        <ul>
+          <li>Player 1: Hi there!</li>
+          <li>Player 2: Hello!</li>
+        </ul>
+        <form>
+          <input type="text" placeholder="Type your message here">
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Leaderboard Page -->
+    <div id="leaderboard-page" style="display: none;">
+      <h1>Leaderboard</h1>
+      <ol>
+        <li>Player 1 - $1000</li>
+        <li>Player 2 - $500</li>
+        <li>Player 3 - $250</li>
+      </ol>
+      <button id="back-button">Back to Lobby</button>
+    </div>
+    
+    <!-- Profile Page -->
+    <div id="profile-page" style="display: none;">
+      <h1>My Profile</h1>
+      <p>Username: Player 1</p>
+      <p>Email: player1@example.com</p>
+      <p>Wallet: $500</p>
+      <button id="logout-button">Log Out</button>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script

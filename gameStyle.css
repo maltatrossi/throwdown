@@ -1,0 +1,78 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.game-board {
+	width: 60%;
+	margin-right: 5%;
+	background-color: #eee;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.player-box {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+	width: calc(50% - 30px);
+	box-sizing: border-box;
+}
+
+.dice-box {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.die {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 30px;
+	font-size: 24px;
+}
+
+.button-box {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.chat-window {
+	width: 35%;
+	background-color: #eee;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#chat-messages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	overflow-y: scroll;
+}
+
+#chat-input {
+	width: 80%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#send-button {
+	width: 15%;
+	margin-left: 5%;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#send-button:hover {
+	background-color: #3E8E41;
+}

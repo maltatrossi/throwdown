@@ -1,0 +1,48 @@
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+/* Wallet balance styling */
+.wallet-balance {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Link styling */
+.link {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.button:hover,
+.link:hover {
+  background-color: #2980b9;
+}
