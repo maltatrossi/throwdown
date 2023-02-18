@@ -1,0 +1,25 @@
+{
+  "name": "dice-poker-game",
+  "version": "1.0.0",
+  "description": "A multiplayer dice poker game using JavaScript and WebSocket connections",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Aleksi Virtanen",
+  "license": "CDL",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^3.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.1.4"
+  }
+}
