@@ -1,3 +1,5 @@
+Check blueprint.png for system design.
+
 The multiplayer dice poker game is like a big party where lots of people can come and play together on their computers or phones.
 
 The game is made up of several different parts that work together to make the party fun and enjoyable for everyone. These parts are like different rooms in the party, each with its own purpose.
