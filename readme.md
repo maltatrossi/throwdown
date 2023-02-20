@@ -47,13 +47,4 @@ In-game currency management using the Wallet class
 Chat functionality
 Authentication using Passport.js
 MongoDB database to store player progress and high scores
-Getting Started
-To run the game, you will need to have Node.js and MongoDB installed on your computer. Once you have cloned the repository, run npm install to install the necessary packages.
-
-To start the game, run npm start in the terminal. The game will be served at localhost:3000 by default.
-
-Contributing
-If you would like to contribute to the project, feel free to fork the repository and submit a pull request. We welcome any contributions that can help improve the game!
-
-
 
