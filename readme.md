@@ -1,4 +1,4 @@
-Check blueprint.png for system design.
+Check blueprint.png for system design idea.
 
 The multiplayer dice poker game is like a big party where lots of people can come and play together on their computers or phones.
 
